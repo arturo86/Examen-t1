@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<!-- importante quitar aki lo del root y poner bien la linea de abajo desde aki   xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.SampleController" -->
+      <BorderPane layoutX="66.0" layoutY="106.0" prefHeight="441.0" prefWidth="332.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.SampleController">
+         <center>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../Imagenes/Captura2.PNG" />
+               </image>
+            </ImageView>
+         </center>
+         <right>
+            <Button mnemonicParsing="false" onMouseClicked="#abrir" text="Button" BorderPane.alignment="BOTTOM_LEFT" />
+         </right>
+         <bottom>
+            <Button mnemonicParsing="false" onMouseClicked="#cerrar" text="Button" BorderPane.alignment="TOP_RIGHT" />
+         </bottom>
+      </BorderPane>
